@@ -75,6 +75,20 @@ Through **1.5 months of rigorous testing, component tuning, and field validation
 | **Water Probes** | `BASE_WAT` | VCC Probe(AC-Couple) & Transistor Base Probe |
 | **Output Driver** | pin 8 (VCC)  | Astable Mode Timer IC_VCC|
 
+
+---
+
+## 🧪 Testing & Development Timeline
+
+- **Weeks 1–4:** Tested standard BJT switches and direct RC triggering; suffered from false triggers, floating base noise, and latching issues.
+- **Weeks 5–6 (Finalized Design):** Added the $100k\Omega$ Base pull-down for 2N2222 and $10k\Omega$ Collector pull-up with the $100nF$ AC coupling capacitor. Confirmed 100% success rate under actual water tank conditions with exact 2.5–3 minute pulse timing.
+
+---
+
+## 👤 Developer & Acknowledgments
+
+- **Developed & Tested by:** Individual Project / Independent Maker
+- **R&D Period:** 1.5 Months of practical hardware testing.
 ---
 
 ## 📐 Circuit Schematic Diagram
